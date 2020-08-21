@@ -13,13 +13,13 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - GUI
+  - Character
+  - Objects
+  - Wall
+  - Background
+  - Floor
+  - Test
   - 
   - 
   - 
@@ -40,4 +40,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2334096519
+    locked: 0
+  - name: Background
+    uniqueID: 1329878283
+    locked: 0
+  - name: WallBase
+    uniqueID: 3712440695
+    locked: 0
+  - name: Walls
+    uniqueID: 1504825591
+    locked: 0
+  - name: Objects
+    uniqueID: 3659774139
+    locked: 0
+  - name: Player
+    uniqueID: 1993839857
+    locked: 0
+  - name: GUI
+    uniqueID: 3377055053
     locked: 0
