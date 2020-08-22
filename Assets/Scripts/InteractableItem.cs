@@ -8,9 +8,13 @@ public class InteractableItem : MonoBehaviour
         Dialogue,
         Pickup,
         Requires,
-        GameObjectPopup
+        GameObjectPopup,
+        UpdateSprite
     }
-    public InteractionType interaction = InteractionType.Pickup;
+
+    [SerializeField]
+    public InteractionType interaction;
+    private bool interacted = false;
     public bool interactionRepeatable = false;
     
     // case pickup
@@ -18,7 +22,7 @@ public class InteractableItem : MonoBehaviour
 
     //case dialogue
     public string dialogueId;
-    private bool interacted = false;
+    public string dialogueId2;
     private GameObject player;
     private InventoryController invController;
     private SpriteRenderer sRenderer;
@@ -29,7 +33,7 @@ public class InteractableItem : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        invController = player.GetComponent<InventoryController>();
+        invController = GameObject.Find("Inventory").GetComponent<InventoryController>();
         sRenderer = GetComponent<SpriteRenderer>();
         Color cl = sRenderer.material.GetColor("_SolidOutline");
         cl.a = 0f;
@@ -57,6 +61,7 @@ public class InteractableItem : MonoBehaviour
                         }
                         break;
                     case InteractionType.Dialogue:
+                        Debug.Log("HELLO THERE");
                         player.GetComponent<PlayerController>().dialogue(dialogueId);
                         break;
                     case InteractionType.Requires:

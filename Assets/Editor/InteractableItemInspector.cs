@@ -4,19 +4,21 @@ using System.Reflection;
 using UnityEngine;
 using UnityEditor;
 
+[System.Serializable]
 [CustomEditor(typeof(InteractableItem))]
 public class InteractableItemInspector : Editor
 {
     public override void OnInspectorGUI() {
         InteractableItem script = (InteractableItem)target;
 
+        // script.interactions = (List<Interaction>)EditorGUILayout.PropertyField(script.interactions);
         script.interaction = (InteractableItem.InteractionType)EditorGUILayout.EnumPopup("Interaction type", script.interaction);
 
 
         switch (script.interaction) {
             case InteractableItem.InteractionType.Pickup:
                 GameObject player = GameObject.Find("Player");
-                InventoryController ic = (InventoryController) GameObject.Find("Player").GetComponent(typeof(InventoryController));
+                InventoryController ic = (InventoryController) GameObject.Find("Inventory").GetComponent(typeof(InventoryController));
                 int value = generatePopupField<InventoryController.Item, InteractableItem>(ic.inventory, "name", script, "itemName", "Item Name");
                 script.gameObject.GetComponent<SpriteRenderer>().sprite = ic.inventory[value].sprite;
                 break;
@@ -26,6 +28,9 @@ public class InteractableItemInspector : Editor
                 break;
             default:
                 break;
+        }
+        if (GUI.changed) {
+            EditorUtility.SetDirty(target);
         }
     }
 
