@@ -47,6 +47,9 @@ TagManager:
   - name: Background
     uniqueID: 1329878283
     locked: 0
+  - name: Objects behind
+    uniqueID: 1384547775
+    locked: 0
   - name: WallBase
     uniqueID: 3712440695
     locked: 0
