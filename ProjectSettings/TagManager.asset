@@ -50,10 +50,10 @@ TagManager:
   - name: Objects behind
     uniqueID: 1384547775
     locked: 0
-  - name: WallBase
+  - name: Walls
     uniqueID: 3712440695
     locked: 0
-  - name: Walls
+  - name: Furniture
     uniqueID: 1504825591
     locked: 0
   - name: Objects
