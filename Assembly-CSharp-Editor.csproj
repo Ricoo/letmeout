@@ -36,7 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\InteractableItemInspector.cs" />
      <Compile Include="Assets\Editor\InteractionInspector.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Users/drago/UnityInstall/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

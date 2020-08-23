@@ -123,6 +123,59 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &99030059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 99030060}
+  - component: {fileID: 99030061}
+  m_Layer: 0
+  m_Name: InteractionGameObjectToggle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &99030060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99030059}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2031202561}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &99030061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99030059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7469c18dcf1aeee428180a75eb26b120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 3
+  dialogueId: Intro-2
+  go: {fileID: 1168012375}
+  nok: {fileID: 0}
+  altSprite: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
+  item: Scissors
+  interacted: 0
+  repeat: 1
+  parent: {fileID: 0}
+  target: {fileID: 0}
 --- !u!1 &239509722
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,6 +588,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &666470626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 666470627}
+  - component: {fileID: 666470628}
+  m_Layer: 0
+  m_Name: InteractionDialogueNotOk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &666470627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666470626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1055924755}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &666470628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666470626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7469c18dcf1aeee428180a75eb26b120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 0
+  dialogueId: Intro-2
+  go: {fileID: 0}
+  nok: {fileID: 2031202560}
+  altSprite: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
+  item: Scissors
+  interacted: 0
+  repeat: 1
+  parent: {fileID: 1866292890}
+  target: {fileID: 1866292890}
 --- !u!1 &944081700
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,10 +780,253 @@ MonoBehaviour:
     name: Scissors
     owned: 0
     keep: 1
+  - sprite: {fileID: 21300000, guid: eace4a73194a6d94cbf91d15be552696, type: 3}
+    name: Sheet
+    owned: 0
+    keep: 0
   - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
     name: Sheet
     owned: 0
     keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+  - sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    name: Sheet
+    owned: 0
+    keep: 0
+--- !u!1 &1055924754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055924755}
+  - component: {fileID: 1055924756}
+  m_Layer: 0
+  m_Name: InteractionRequires
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1055924755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055924754}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.905, y: 0.35800004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2031202561}
+  - {fileID: 666470627}
+  m_Father: {fileID: 1386381491}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1055924756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055924754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7469c18dcf1aeee428180a75eb26b120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 2
+  dialogueId: Intro-1
+  go: {fileID: 2031202560}
+  nok: {fileID: 666470626}
+  altSprite: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
+  item: Scissors
+  interacted: 0
+  repeat: 1
+  parent: {fileID: 1866292890}
+  target: {fileID: 1866292890}
 --- !u!1 &1133684813
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,10 +1036,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1133684814}
-  - component: {fileID: 1133684816}
   - component: {fileID: 1133684815}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: InteractionPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -703,12 +1051,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133684813}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.905, y: 0.358, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.36099994, y: -1.308, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1178497695}
-  m_RootOrder: 8
+  m_Children:
+  - {fileID: 1413286164}
+  m_Father: {fileID: 9187132755568925186}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1133684815
 MonoBehaviour:
@@ -723,66 +1072,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   t: 1
-  dialogue: Intro-1
-  dialogue_alt: 
-  popup: {fileID: 0}
-  altSprite: {fileID: 0}
+  dialogueId: Intro-1
+  go: {fileID: 0}
+  nok: {fileID: 2031202560}
+  altSprite: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
   item: Scissors
-  player: {fileID: 0}
---- !u!212 &1133684816
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  interacted: 0
+  repeat: 1
+  parent: {fileID: 1866292890}
+  target: {fileID: 0}
+--- !u!1 &1168012375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9187132754755904373, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+  m_PrefabInstance: {fileID: 9187132755568925185}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1133684813}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.96, y: 0.32}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1178497695 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9187132754598619294, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+--- !u!1 &1195367743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9187132755554487081, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
   m_PrefabInstance: {fileID: 9187132755568925185}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1249179832
@@ -884,6 +1190,64 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!4 &1386381491 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 215924130315930401, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+  m_PrefabInstance: {fileID: 9187132755568925185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1413286163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1413286164}
+  - component: {fileID: 1413286165}
+  m_Layer: 0
+  m_Name: InteractionUpdateSprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1413286164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413286163}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.905, y: 0.35800004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1133684814}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1413286165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413286163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7469c18dcf1aeee428180a75eb26b120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 4
+  dialogueId: Intro-1
+  go: {fileID: 0}
+  nok: {fileID: 2031202560}
+  altSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  item: Scissors
+  interacted: 0
+  repeat: 0
+  parent: {fileID: 1195367743}
+  target: {fileID: 1195367743}
 --- !u!1 &1471698098
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,16 +1361,16 @@ MonoBehaviour:
   dialogues:
   - id: Intro-1
     interventions:
-    - portrait: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
+    - portrait: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
       line: 'Mais ou suis-je ??
 
 '
-    - portrait: {fileID: 21300000, guid: 0ffbc50f98751ba46abeb1710e6d6ec6, type: 3}
+    - portrait: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
       line: Mangez mes pieds !
   - id: Intro-2
     interventions:
     - portrait: {fileID: 0}
-      line: Test
+      line: Test dialogue not ok
   - id: Corridor-1
     interventions: []
   textBox: {fileID: 427765578}
@@ -1155,6 +1519,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
   m_PrefabInstance: {fileID: 8582135464381282779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1866292890 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9187132754679714492, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+  m_PrefabInstance: {fileID: 9187132755568925185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1962481799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1606,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2031202560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2031202561}
+  - component: {fileID: 2031202562}
+  m_Layer: 0
+  m_Name: InteractionDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2031202561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031202560}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.905, y: -0.35800004, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 99030060}
+  m_Father: {fileID: 1055924755}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2031202562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031202560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7469c18dcf1aeee428180a75eb26b120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 0
+  dialogueId: Intro-1
+  go: {fileID: 0}
+  nok: {fileID: 0}
+  altSprite: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
+  item: Scissors
+  interacted: 0
+  repeat: 1
+  parent: {fileID: 0}
+  target: {fileID: 0}
 --- !u!1 &2144860610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,6 +1871,10 @@ PrefabInstance:
       propertyPath: dialogueId
       value: Intro-1
       objectReference: {fileID: 0}
+    - target: {fileID: 215924130315930400, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+      propertyPath: io
+      value: 
+      objectReference: {fileID: 2031202560}
     - target: {fileID: 215924130315930402, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1508,6 +1935,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9187132754679714494, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+      propertyPath: io
+      value: 
+      objectReference: {fileID: 1133684813}
+    - target: {fileID: 9187132754679714497, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 9187132755554487083, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 9187132755730242128, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
       propertyPath: m_DrawMode
       value: 2
@@ -1534,3 +1973,8 @@ PrefabInstance:
       objectReference: {fileID: 1854401349}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+--- !u!4 &9187132755568925186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9187132754679714495, guid: e9f05157f9ad10f4794ee2c26d736fce, type: 3}
+  m_PrefabInstance: {fileID: 9187132755568925185}
+  m_PrefabAsset: {fileID: 0}
