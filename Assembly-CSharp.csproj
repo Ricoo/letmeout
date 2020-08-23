@@ -37,11 +37,20 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\PixelPerfectCamera\Scripts\Scroller.cs" />
+     <Compile Include="Assets\PixelPerfectCamera\Scripts\PixelSnap.cs" />
+     <Compile Include="Assets\PixelPerfectCamera\Scripts\CanvasScreenSpaceScaler.cs" />
+     <Compile Include="Assets\PixelPerfectCamera\Scripts\PixelPerfectCamera.cs" />
      <Compile Include="Assets\Scripts\AlphaController.cs" />
+     <Compile Include="Assets\PixelPerfectCamera\Scripts\CanvasWorldScaler.cs" />
+     <Compile Include="Assets\PixelPerfectCamera\Scripts\Internal\VectorSwizzleExtensions.cs" />
+     <Compile Include="Assets\Scripts\DialogueController.cs" />
      <Compile Include="Assets\Scripts\InteractableItem.cs" />
      <Compile Include="Assets\Scripts\InventoryController.cs" />
-     <Compile Include="Assets\DialogueController.cs" />
+     <Compile Include="Assets\Scripts\Interaction.cs" />
      <None Include="Assets\Shaders\SpriteOutline.shader" />
+     <None Include="Assets\PixelPerfectCamera\notices.txt" />
+     <None Include="Assets\PixelPerfectCamera\README.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Users/drago/UnityInstall/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

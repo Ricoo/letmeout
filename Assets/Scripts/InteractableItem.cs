@@ -4,23 +4,12 @@ using UnityEngine;
 
 public class InteractableItem : MonoBehaviour
 {
-    public enum InteractionType {
-        Dialogue,
-        Pickup,
-        Requires,
-        GameObjectPopup
-    }
-    public InteractionType interaction = InteractionType.Pickup;
-    public bool interactionRepeatable = false;
+    public GameObject io;
+    private Interaction interaction;
     
-    // case pickup
-    public string itemName;
-
-    //case dialogue
-    public string dialogueId;
-    private bool interacted = false;
     private GameObject player;
-    private InventoryController invController;
+    private PlayerController pc;
+    private InventoryController ic;
     private SpriteRenderer sRenderer;
     private float alpha = 0f;
     private float alphaCap = .8f;
@@ -29,11 +18,13 @@ public class InteractableItem : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
-        invController = player.GetComponent<InventoryController>();
+        pc = player.GetComponent<PlayerController>();
+        ic = GameObject.Find("Inventory").GetComponent<InventoryController>();
         sRenderer = GetComponent<SpriteRenderer>();
         Color cl = sRenderer.material.GetColor("_SolidOutline");
         cl.a = 0f;
         sRenderer.material.SetColor("_SolidOutline", cl);
+        interaction=io.GetComponent<Interaction>();
     }
 
     // Update is called once per frame
@@ -41,34 +32,14 @@ public class InteractableItem : MonoBehaviour
     {
         Color cl = sRenderer.material.GetColor("_SolidOutline");
         // Checks if the player is in interaction range
-        if (Vector3.Distance(this.transform.position, player.transform.position) < .3f && (!interacted || interactionRepeatable)) {
+        if (Vector3.Distance(this.transform.position, player.transform.position) < .3f && (!interaction.used || interaction.repeat)) {
             if (alpha < alphaCap) {
                 alpha += 2*Time.deltaTime;
                 alpha = (alpha > alphaCap ? alphaCap : alpha);
             }
             // The player interacts with the item
-            if (Input.GetKey("e")) {
-                interacted = true;
-                switch (interaction) {
-                    case InteractionType.Pickup:
-                        if (!invController.hasItem(itemName)) {
-                            invController.addItem(itemName);
-                            sRenderer.enabled = false;
-                        }
-                        break;
-                    case InteractionType.Dialogue:
-                        player.GetComponent<PlayerController>().dialogue(dialogueId);
-                        break;
-                    case InteractionType.Requires:
-                        break;
-                    case InteractionType.GameObjectPopup:
-                        break;
-                }
-                if (interaction == InteractionType.Pickup) {
-
-                } else {
-
-                }
+            if (Input.GetKey("e") && !pc.interacting) {
+                interaction.interact(this.gameObject);
             }
         } else if (alpha > 0f) {
             alpha -= 2*Time.deltaTime;

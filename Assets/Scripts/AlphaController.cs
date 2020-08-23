@@ -5,6 +5,8 @@ using UnityEngine;
 public class AlphaController : MonoBehaviour
 {
     public GameObject player;
+    public float min = .2f;
+    public float max = 1f;
     private float alpha = 1;
 
     // Start is called before the first frame update
@@ -21,14 +23,14 @@ public class AlphaController : MonoBehaviour
         if (transform.position.y < player.transform.position.y) {
             Color tmp = GetComponent<SpriteRenderer>().color;
             alpha -= 1f*Time.deltaTime;
-            alpha = alpha < .2f ? .2f : alpha;
+            alpha = alpha < min ? min : alpha;
             tmp.a = alpha;
             GetComponent<SpriteRenderer>().color = tmp;
         }
-        else if (alpha < 1f ){
+        else if (alpha < max ) {
             Color tmp = GetComponent<SpriteRenderer>().color;
-            alpha += 1f*Time.deltaTime;
-            alpha = alpha > 1f ? 1f : alpha;
+            alpha += 1f * Time.deltaTime;
+            alpha = alpha > max ? max : alpha;
             tmp.a = alpha;
             GetComponent<SpriteRenderer>().color = tmp;    
         }
