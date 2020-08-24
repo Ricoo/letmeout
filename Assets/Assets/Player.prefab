@@ -632,10 +632,68 @@ MonoBehaviour:
 '
     - portrait: {fileID: 21300000, guid: c4a0db6ce1b91834397a73d792c949fb, type: 3}
       line: Mangez mes pieds !
-  - id: Intro-2
+  - id: chambre-tournevis
     interventions:
     - portrait: {fileID: 0}
-      line: Test dialogue not ok
+      line: "You know you don\u2019t have the right to go out\u2026"
+    - portrait: {fileID: 0}
+      line: "But I ruined your eye during the night. \nI need to fix you, Rosie."
+    - portrait: {fileID: 0}
+      line: "Then you should look under your bed. \nYou might find something useful."
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
+  - id: Corridor-1
+    interventions: []
   - id: Corridor-1
     interventions: []
   textBox: {fileID: 427765578}
