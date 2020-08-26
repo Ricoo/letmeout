@@ -123,6 +123,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &128399831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128399832}
+  m_Layer: 0
+  m_Name: Grenier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &128399832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128399831}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.341725, y: 7.7148943, z: -487.93085}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &347610990
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +491,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515074443625178370, guid: 652b218e337161448b95e124988fd6b2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4118357681459533850, guid: 652b218e337161448b95e124988fd6b2, type: 3}
       propertyPath: m_Name
       value: 'Couloir droite 1er '
@@ -629,6 +663,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5ecf34e93ecfcf4c8e739e8f09564ce, type: 3}
+--- !u!1001 &7696680027050792729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7696680026520378090, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_Name
+      value: Chambre Bonne
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.1875
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.024026
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7696680026520378093, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f23dc835efc0f794da9f6c891608cd0b, type: 3}
 --- !u!1001 &8736808381138867141
 PrefabInstance:
   m_ObjectHideFlags: 0
