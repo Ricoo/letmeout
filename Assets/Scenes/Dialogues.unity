@@ -1,0 +1,931 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &1212441739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[0].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[1].interventions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[2].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[3].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[5].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[6].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[7].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[8].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[9].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[10].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[11].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[12].interventions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[13].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[14].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[15].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[16].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[17].interventions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[19].interventions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[20].interventions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[21].interventions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[22].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[23].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[24].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[25].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[26].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[27].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[28].interventions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[29].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[30].interventions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[31].interventions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[32].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[33].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[34].interventions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[35].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[36].interventions.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[3].id
+      value: "porte-entr\xE9e"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].id
+      value: bonne-journal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[5].id
+      value: bonne-trape
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[6].id
+      value: "bureau-cam\xE9ra"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[7].id
+      value: Corridor-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[8].id
+      value: bureau-lettre-reac
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[9].id
+      value: "fen\xEAtre-caravane"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[10].id
+      value: salon-tableau
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[11].id
+      value: salon-tableau-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[12].id
+      value: salon-pince-feu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[13].id
+      value: sdb-pansement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[14].id
+      value: toilette-pince
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[15].id
+      value: "sdmusique-fen\xEAtre"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[16].id
+      value: sdmusique-piano
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[17].id
+      value: bibli-lvl-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[18].id
+      value: bibli-lvl-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[19].id
+      value: bibli-lvl-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[20].id
+      value: chambre-matelas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[21].id
+      value: chambre-matelas-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[22].id
+      value: jardin-daddy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[23].id
+      value: mots-daddy1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[24].id
+      value: mots-daddy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[25].id
+      value: mots-daddy3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[26].id
+      value: "cl\xE9-daddy"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[27].id
+      value: cuisine-sang
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[28].id
+      value: cuisine-ciseaux
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[29].id
+      value: cuisine-four
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[30].id
+      value: salle-repas-daddy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[31].id
+      value: salon-lettre
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[32].id
+      value: "r\xE9serve-tapis"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[33].id
+      value: "r\xE9serve-trappe"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[34].id
+      value: cave-os
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[35].id
+      value: chambre-parents-monstre
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[36].id
+      value: chambre-parents-portrait
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[37].id
+      value: Corridor-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[38].id
+      value: Corridor-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[39].id
+      value: Corridor-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[0].interventions.Array.data[0].line
+      value: "It\u2019s raining; it\u2019s pouring.\r\nThe old man is snoring.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[0].interventions.Array.data[1].portrait
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[0].interventions.Array.data[1].line
+      value: "He bumped his head on the top of the bed,\r\nAnd couldn\u2019t get
+        up in the morning."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[0].id
+      value: Intro-musique
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[1].id
+      value: chambre-objet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[1].interventions.Array.data[0].line
+      value: "You know you don\u2019t have the right to go out\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[1].interventions.Array.data[1].line
+      value: But I ruined your eye during the night. I need to fix you, Rosie.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[1].interventions.Array.data[2].line
+      value: "Then you should look under your bed. \nYou might find something useful."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[2].id
+      value: "porte-ferm\xE9e"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[2].interventions.Array.data[0].line
+      value: Daddy has some security issues I guess.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[3].interventions.Array.data[0].line
+      value: "I want to go out! Daddy! Mommy!\nLet me out\u2026 \nI will be a good
+        girl, I swear."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.data[0].line
+      value: "This is my first day at the Downhill Manor. \r\nMary and Joel seem
+        amazing. \r\nShe is pregnant and she needs help to take care of the house.
+        \r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.data[1].line
+      value: "I\u2019m so happy to be there! \r\nThe garden is astonishing and the
+        air\u2026 \r\nI smell happiness in this air.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.data[2].line
+      value: "This is our maid\u2019s diary, baby girl. \r\nGo to the end of it,
+        the beginning will be boring.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.data[3].line
+      value: "I\u2019m afraid. I think I\u2019m gonna go back to my family. \r\nI
+        can\u2019t stand it anymore. \r\nSomedays, I can hear her scratch the wood
+        floor in her room.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.data[4].line
+      value: "Somedays she\u2019s singing, with her beautiful little voice, as she
+        was an angel. \r\nI can\u2019t bear to see her. To hear her.\r\n And Joel\u2026
+        Oh, poor Mister Joel\u2026\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.data[5].line
+      value: "The rest of the pages are missing... \r\nShe was scared of the noise
+        in my house, i guess.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[4].interventions.Array.data[6].line
+      value: But everyone should know that creepy noises come from old houses.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[5].interventions.Array.data[0].line
+      value: "I can\u2019t open it right now."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[5].interventions.Array.data[1].line
+      value: "Who knows what\u2019s in this attic anyway\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[6].interventions.Array.data[0].line
+      value: "What are you watching like this? \nOr maybe who?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[7].interventions.Array.data[0].line
+      value: "Dear Esther, your sister Madeleine is gone. \r\nI know this is a harsh
+        way to announce it to you, but the circumstances of her death are really
+        odd. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[7].interventions.Array.data[1].line
+      value: "I will explain it to you in another letter. For now, we need to\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[8].interventions.Array.data[0].line
+      value: "Well, there is no end to this letter. \r\nMaybe daddy sent another
+        one? \r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[8].interventions.Array.data[1].line
+      value: "I never saw auntie Esther. \nDaddy used to tell me I had the same gaze
+        as mommy. \r\nMaybe she was scared to see mum in me.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[9].interventions.Array.data[0].line
+      value: Look. This light was not there before.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[9].interventions.Array.data[1].line
+      value: "I don\u2019t know where it comes from, Rosie."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[10].interventions.Array.data[0].line
+      value: My family used to look like this.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[11].interventions.Array.data[0].line
+      value: Everything vanished.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[12].interventions.Array.data[0].line
+      value: This could be useful.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[12].interventions.Array.data[1].line
+      value: To defend myself ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[12].interventions.Array.data[2].line
+      value: To grab something for example. But I like the spirit.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[13].interventions.Array.data[0].line
+      value: "I will fix you with this, Rosie, don\u2019t worry!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[13].interventions.Array.data[1].line
+      value: "I\u2019m not sure I can be fixed anymore, baby girl\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[14].interventions.Array.data[0].line
+      value: "See? Roses are red, violets are blue\u2026 \nYou could use this tool
+        to go through."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[14].interventions.Array.data[1].line
+      value: "Mum hates when I\u2019m dirty. You\u2019re right, ring-a-ring-a-rosies."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[15].interventions.Array.data[0].line
+      value: "A caravan\u2026 Maybe we will go on vacations? \nWhat do you think
+        about that, Rosie?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[15].interventions.Array.data[1].line
+      value: "You can\u2019t escape your own mind."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[16].interventions.Array.data[0].line
+      value: Mommy, I wanna hear your songs again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[16].interventions.Array.data[1].line
+      value: Melody from her heart. Boom. Boom. Boom.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[17].interventions.Array.data[0].line
+      value: All those marks on the wood...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[17].interventions.Array.data[1].line
+      value: It looks like cat scratches.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[17].interventions.Array.data[2].line
+      value: Maybe Ruby was scared of something! We need to find the kitty.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[19].interventions.Array.data[0].line
+      value: "Look Rosie, it\u2019s the rest of the maid diary!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[19].interventions.Array.data[1].line
+      value: Read it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[19].interventions.Array.data[2].line
+      value: "I need to leave. Mary is dead\u2026 the demon killed her. \r\nJoel
+        can\u2019t see what\u2019s happening here, but I know. \r\nI know everything.
+        I\u2019m not mad, I\u2019m not a fool. \r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[19].interventions.Array.data[3].line
+      value: "The smell in the kitchen makes me sick. \r\nI don\u2019t know what
+        they are cooking\u2026\r\nI need to run away.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[20].interventions.Array.data[0].line
+      value: "Isn\u2019t it odd?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[20].interventions.Array.data[1].line
+      value: "Everything is odd, down there. \nAm I odd, Louise?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[20].interventions.Array.data[2].line
+      value: "I\u2019m not the only one seeing this bump under the sheets?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[20].interventions.Array.data[3].line
+      value: No, baby girl. I can see it too.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[21].interventions.Array.data[0].line
+      value: "Ruby! Oh, no, Ruby\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[21].interventions.Array.data[1].line
+      value: "Don\u2019t cry, baby girl. I\u2019ve always been a better pet. \nRuby
+        never loved you. \nIn the end, he was scared of you. Don\u2019t you remember?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[21].interventions.Array.data[2].line
+      value: Scared of me? But why?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[21].interventions.Array.data[3].line
+      value: 'Oh, Louise... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[22].interventions.Array.data[0].line
+      value: "Louise, why are you here? \nYou know you can\u2019t go out of your
+        room!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[23].interventions.Array.data[0].line
+      value: "Don\u2019t move, baby girl, I\u2019m gonna get you\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[24].interventions.Array.data[0].line
+      value: "Stay here baby girl, I\u2019m coming\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[25].interventions.Array.data[0].line
+      value: "I can hear you, if you run away\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[26].interventions.Array.data[0].line
+      value: "Did you hear that? \nDaddy lost something\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[27].interventions.Array.data[0].line
+      value: "I don\u2019t think that\u2019s felt pen\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[27].interventions.Array.data[1].line
+      value: "You don\u2019t have the right to draw anymore anyway."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[28].interventions.Array.data[0].line
+      value: "Take it, baby girl. \nSometimes you have to do bad bad things to get
+        what you want want."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[29].interventions.Array.data[0].line
+      value: "Is it? Oh my god, Rosie\u2026 \nI\u2019m so hungry. But is it our maid\u2019s
+        doily? \nWhy is it in the oven?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[29].interventions.Array.data[1].line
+      value: "Come baby girl. \nShe must have forgotten it in the oven while cooking\u2026
+        \nWe need to find a way to escape this house."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[30].interventions.Array.data[0].line
+      value: "I was really scared you escaped, Louise. \nI told you not to leave
+        your room."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[30].interventions.Array.data[1].line
+      value: Be careful. Remember you have your scissors.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[30].interventions.Array.data[2].line
+      value: "I won\u2019t hurt you, little pumpkin. \nPlease, give me those scissors,
+        you could hurt little Rosie. \nThat\u2019s not what you want, right?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[31].interventions.Array.data[0].line
+      value: "Dear Joel, I know that you faced a great ordeal those recent days.
+        \r\nI am sorry to announce that I would need more analysis of your daughter
+        to find a cure. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[31].interventions.Array.data[1].line
+      value: "The disease she held is really rare. \r\nI never saw nothing like this
+        in the past.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[31].interventions.Array.data[2].line
+      value: "I don\u2019t wanna read the rest, Rosie. I\u2019m not sick. \r\nI don\u2019t
+        want to take those pills anymore. \r\nI\u2019m dizzy when I take it.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[31].interventions.Array.data[3].line
+      value: "I know baby girl, that\u2019s why I took your pills this week. \r\nThat\u2019s
+        why you awake now. Move. Fast. We should go out.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[31].interventions.Array.data[4].line
+      value: "Wait, look, there is a key with the letter\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[32].interventions.Array.data[0].line
+      value: "The carpet was not here before. I should remove it\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[32].interventions.Array.data[1].line
+      value: Cut it! Cut it! Cut it! Quickly baby girl!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[33].interventions.Array.data[0].line
+      value: "A trapdoor! It leads to the cellar. \nYou\u2019re sure you wanna go
+        there?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[33].interventions.Array.data[1].line
+      value: Sometimes you have to face the monsters under the bed.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[34].interventions.Array.data[0].line
+      value: "The smell\u2026 oh my god, Rosie\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[34].interventions.Array.data[1].line
+      value: "This is your first course of anatomy, Louise. \nSee? This is a skull.
+        \nAnd those are bones."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[34].interventions.Array.data[2].line
+      value: "I wanna leave\u2026 please\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[35].interventions.Array.data[0].line
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[35].interventions.Array.data[1].line
+      value: They are scared of you, baby girl.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[36].interventions.Array.data[0].line
+      value: This is just a nightmare.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687111014, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: dialogues.Array.data[36].interventions.Array.data[1].line
+      value: "Look, you found another key. \nMaybe it leads outisde..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.023361215
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11680481
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155420, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8582135465950155422, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baa87fc413f6dfa4495e3696c33e474a, type: 3}
+--- !u!1 &1591210820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591210823}
+  - component: {fileID: 1591210822}
+  - component: {fileID: 1591210821}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1591210821
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591210820}
+  m_Enabled: 1
+--- !u!20 &1591210822
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591210820}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1591210823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591210820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
