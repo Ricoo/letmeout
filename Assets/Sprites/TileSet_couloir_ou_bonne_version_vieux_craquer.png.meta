@@ -1,52 +1,43 @@
 fileFormatVersion: 2
-guid: 57ad2e5193d9c6549ad9a617e4f891b0
+guid: 8060d017c6cd36243a17613948b0f654
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4398237211966281500
-    second: Objet_cuisine_0
+      213: -2274818911453853059
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_0
   - first:
-      213: 2250308782247781712
-    second: Objet_cuisine_1
+      213: 2040160934255388790
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_1
   - first:
-      213: -7226360265381331534
-    second: Objet_cuisine_2
+      213: 2453519421141542168
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_2
   - first:
-      213: -8793150424119446559
-    second: Objet_cuisine_3
+      213: 9016248678215176887
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_3
   - first:
-      213: -4942252888857394708
-    second: Objet_cuisine_4
+      213: 8455239974689829252
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_4
   - first:
-      213: 4136023997348870966
-    second: Objet_cuisine_5
+      213: -2521475157262949081
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_5
   - first:
-      213: -9123988455692740728
-    second: Objet_cuisine_6
+      213: -8935463110209303170
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_6
   - first:
-      213: 4477337964623668644
-    second: Objet_cuisine_7
+      213: -2140879597367336095
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_7
   - first:
-      213: -3766060936851251628
-    second: Objet_cuisine_8
+      213: -4634313298844408156
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_8
   - first:
-      213: -5953846722235887323
-    second: Objet_cuisine_9
+      213: -5117429899137173517
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_9
   - first:
-      213: 4887663587323254341
-    second: Objet_cuisine_10
+      213: -4215024318822628858
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_10
   - first:
-      213: -2755131917452370449
-    second: Objet_cuisine_11
-  - first:
-      213: -94476235543518020
-    second: Objet_cuisine_12
-  - first:
-      213: -4591110893010840159
-    second: Objet_cuisine_13
-  - first:
-      213: 7071862011436158186
-    second: Objet_cuisine_14
+      213: 4321672204833421044
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -158,301 +149,91 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Objet_cuisine_0
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_0
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 64
         height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e868defe8256f2c0800000000000000
-      internalID: -4398237211966281500
+      spriteID: d7ac376a0483e60e0800000000000000
+      internalID: -2274818911453853059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_cuisine_1
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_1
       rect:
         serializedVersion: 2
         x: 64
         y: 256
         width: 64
         height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05522d03ae3ba3f10800000000000000
-      internalID: 2250308782247781712
+      spriteID: 678ebea7f8b105c10800000000000000
+      internalID: 2040160934255388790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_cuisine_2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_2
       rect:
         serializedVersion: 2
         x: 128
         y: 256
         width: 64
         height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bdb2f220afc6bb90800000000000000
-      internalID: -7226360265381331534
+      spriteID: 815e9aa0ae6ac0220800000000000000
+      internalID: 2453519421141542168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_cuisine_3
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_3
       rect:
         serializedVersion: 2
         x: 192
         y: 256
         width: 64
         height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e3f8c1074478f580800000000000000
-      internalID: -8793150424119446559
+      spriteID: 7b2d9971766202d70800000000000000
+      internalID: 9016248678215176887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_cuisine_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce1c189ce27996bb0800000000000000
-      internalID: -4942252888857394708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_5
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63b787879eb166930800000000000000
-      internalID: 4136023997348870966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8875bab27d4116180800000000000000
-      internalID: -9123988455692740728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_7
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a5a3c82823b22e30800000000000000
-      internalID: 4477337964623668644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_8
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45e918808834cbbc0800000000000000
-      internalID: -3766060936851251628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_9
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 136
-        width: 64
-        height: 56
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 521910273ffaf5da0800000000000000
-      internalID: -5953846722235887323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_10
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5469300032874d340800000000000000
-      internalID: 4887663587323254341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_11
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fed19ee4e1ec3c9d0800000000000000
-      internalID: -2755131917452370449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_12
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 72
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb466b44d5a50bef0800000000000000
-      internalID: -94476235543518020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_13
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
-      alignment: 3
-      pivot: {x: 1, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a599a1b7f81940c0800000000000000
-      internalID: -4591110893010840159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objet_cuisine_14
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_4
       rect:
         serializedVersion: 2
         x: 256
@@ -466,8 +247,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec4b34f70d442260800000000000000
-      internalID: 7071862011436158186
+      spriteID: 481f11e85fb075570800000000000000
+      internalID: 8455239974689829252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725ae5d24bbe10dd0800000000000000
+      internalID: -2521475157262949081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d0e54b4abdef380800000000000000
+      internalID: -8935463110209303170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e90c59511a42e0800000000000000
+      internalID: -2140879597367336095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a28cbb9c9fafb0800000000000000
+      internalID: -4634313298844408156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f737fabe9c3bf8b0800000000000000
+      internalID: -5117429899137173517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602c1f4d6b93185c0800000000000000
+      internalID: -4215024318822628858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f676cc19f9a9fb30800000000000000
+      internalID: 4321672204833421044
       vertices: []
       indices: 
       edges: []

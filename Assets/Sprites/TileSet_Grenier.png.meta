@@ -251,12 +251,12 @@ TextureImporter:
       name: TileSet_Grenier_0
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
+        x: 0
+        y: 314
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +272,12 @@ TextureImporter:
       name: TileSet_Grenier_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
+        x: 64
+        y: 314
         width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: TileSet_Grenier_2
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
+        x: 128
+        y: 314
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: TileSet_Grenier_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
+        x: 0
+        y: 250
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: TileSet_Grenier_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
+        x: 64
+        y: 250
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: TileSet_Grenier_5
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
+        x: 128
+        y: 250
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,12 +377,12 @@ TextureImporter:
       name: TileSet_Grenier_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
+        x: 0
+        y: 186
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,11 +399,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 186
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -420,11 +420,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 192
+        y: 186
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -440,12 +440,12 @@ TextureImporter:
       name: TileSet_Grenier_9
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
+        x: 0
+        y: 122
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -461,12 +461,12 @@ TextureImporter:
       name: TileSet_Grenier_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
+        x: 64
+        y: 122
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -482,12 +482,12 @@ TextureImporter:
       name: TileSet_Grenier_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 0
+        y: 58
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -503,12 +503,12 @@ TextureImporter:
       name: TileSet_Grenier_12
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 64
+        y: 58
         width: 64
         height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,132 +516,6 @@ TextureImporter:
       bones: []
       spriteID: 18a881e904593fa00800000000000000
       internalID: 789138464482822785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TileSet_Grenier_13
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e65b5175ffaf0cd0800000000000000
-      internalID: -2589657792011086107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TileSet_Grenier_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7b86634f3c027560800000000000000
-      internalID: 7309918611029003130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TileSet_Grenier_15
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93a16d8c8984b59c0800000000000000
-      internalID: -3937473628163663303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TileSet_Grenier_16
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3397c01215e6a2810800000000000000
-      internalID: 1741325500657989939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TileSet_Grenier_17
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a935ec41c9d8b90800000000000000
-      internalID: -7237957412939654516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TileSet_Grenier_18
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c18b04dd17aa9c00800000000000000
-      internalID: 908222021421990340
       vertices: []
       indices: 
       edges: []
