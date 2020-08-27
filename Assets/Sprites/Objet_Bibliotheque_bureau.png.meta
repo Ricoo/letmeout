@@ -1,76 +1,70 @@
 fileFormatVersion: 2
-guid: 486166e35f0b819408c71dbd2a4e98ad
+guid: c5bb5766df8e7a148a3b49a7d2fc1963
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5292764782155639549
-    second: Objet_chambre_enfant_0
+      213: 126715888597504125
+    second: Objet_Bibliotheque_bureau_0
   - first:
-      213: -1478154534483978837
-    second: Objet_chambre_enfant_1
+      213: -4643788111011645096
+    second: Objet_Bibliotheque_bureau_1
   - first:
-      213: -2205370687509599240
-    second: Objet_chambre_enfant_2
+      213: -4499322987613722708
+    second: Objet_Bibliotheque_bureau_2
   - first:
-      213: 6596214039087977597
-    second: Objet_chambre_enfant_3
+      213: -298511596297181625
+    second: Objet_Bibliotheque_bureau_3
   - first:
-      213: 5810886172030942302
-    second: Objet_chambre_enfant_4
+      213: -1080018232000998188
+    second: Objet_Bibliotheque_bureau_4
   - first:
-      213: -5480921019971170515
-    second: Objet_chambre_enfant_5
+      213: -993276726250558110
+    second: Objet_Bibliotheque_bureau_5
   - first:
-      213: -8196490752654305391
-    second: Objet_chambre_enfant_6
+      213: 4221740661860974470
+    second: Objet_Bibliotheque_bureau_6
   - first:
-      213: -4695426431279313487
-    second: Objet_chambre_enfant_7
+      213: -8252709757681303051
+    second: Objet_Bibliotheque_bureau_7
   - first:
-      213: -4106818720764139681
-    second: Objet_chambre_enfant_8
+      213: -4710787842727747746
+    second: Objet_Bibliotheque_bureau_8
   - first:
-      213: 1330769142707707077
-    second: Objet_chambre_enfant_9
+      213: 5471940741422127578
+    second: Objet_Bibliotheque_bureau_9
   - first:
-      213: 4810449374150390186
-    second: Objet_chambre_enfant_10
+      213: -6798313176940371188
+    second: Objet_Bibliotheque_bureau_10
   - first:
-      213: 745813826716223503
-    second: Objet_chambre_enfant_0
+      213: 293701582284734320
+    second: Objet_Bibliotheque_bureau_11
   - first:
-      213: 3001543269124673307
-    second: Objet_chambre_enfant_1
+      213: 2089846571256973857
+    second: Objet_Bibliotheque_bureau_12
   - first:
-      213: 2559611368717532596
-    second: Objet_chambre_enfant_2
+      213: 7957973712667042555
+    second: Objet_Bibliotheque_bureau_13
   - first:
-      213: 7651003148277399547
-    second: Objet_chambre_enfant_3
+      213: -5362536370838181545
+    second: Objet_Bibliotheque_bureau_14
   - first:
-      213: -363028390871240550
-    second: Objet_chambre_enfant_4
+      213: 7891747789143278741
+    second: Objet_Bibliotheque_bureau_15
   - first:
-      213: -8187518944011753736
-    second: Objet_chambre_enfant_5
+      213: -2071375672010470293
+    second: Objet_Bibliotheque_bureau_16
   - first:
-      213: -3207371220426769509
-    second: Objet_chambre_enfant_6
+      213: -357893544855305158
+    second: Objet_Bibliotheque_bureau_17
   - first:
-      213: 2485609332832578300
-    second: Objet_chambre_enfant_7
+      213: 1614885057915004862
+    second: Objet_Bibliotheque_bureau_18
   - first:
-      213: 8137144558370399406
-    second: Objet_chambre_enfant_8
+      213: -6961950796642252815
+    second: Objet_Bibliotheque_bureau_19
   - first:
-      213: -1050370733804379955
-    second: Objet_chambre_enfant_9
-  - first:
-      213: -9053727419337798211
-    second: Objet_chambre_enfant_10
-  - first:
-      213: -3504202117362966859
-    second: Objet_chambre_enfant_11
+      213: -9046190575625189021
+    second: Objet_Bibliotheque_bureau_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -182,7 +176,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Objet_chambre_enfant_0
+      name: Objet_Bibliotheque_bureau_0
       rect:
         serializedVersion: 2
         x: 0
@@ -196,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f08cef159b9a95a00800000000000000
-      internalID: 745813826716223503
+      spriteID: d709047ed6f22c100800000000000000
+      internalID: 126715888597504125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_1
+      name: Objet_Bibliotheque_bureau_1
       rect:
         serializedVersion: 2
         x: 64
@@ -217,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1f042e43bf97a920800000000000000
-      internalID: 3001543269124673307
+      spriteID: 859f7fe1153fd8fb0800000000000000
+      internalID: -4643788111011645096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_2
+      name: Objet_Bibliotheque_bureau_2
       rect:
         serializedVersion: 2
         x: 128
@@ -238,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bdb57b7af0958320800000000000000
-      internalID: 2559611368717532596
+      spriteID: ca7e889c4913f81c0800000000000000
+      internalID: -4499322987613722708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_3
+      name: Objet_Bibliotheque_bureau_3
       rect:
         serializedVersion: 2
         x: 192
@@ -259,14 +253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bff387c93d2dd2a60800000000000000
-      internalID: 7651003148277399547
+      spriteID: 7462f55e8497bdbf0800000000000000
+      internalID: -298511596297181625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_4
+      name: Objet_Bibliotheque_bureau_4
       rect:
         serializedVersion: 2
         x: 256
@@ -280,14 +274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a90fcb61a9346faf0800000000000000
-      internalID: -363028390871240550
+      spriteID: 4d492a2e3210301f0800000000000000
+      internalID: -1080018232000998188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_5
+      name: Objet_Bibliotheque_bureau_5
       rect:
         serializedVersion: 2
         x: 0
@@ -301,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f6e56656e6106e80800000000000000
-      internalID: -8187518944011753736
+      spriteID: 26d2c20841c2732f0800000000000000
+      internalID: -993276726250558110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_6
+      name: Objet_Bibliotheque_bureau_6
       rect:
         serializedVersion: 2
         x: 64
@@ -322,14 +316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9bb6af4ed02d73d0800000000000000
-      internalID: -3207371220426769509
+      spriteID: 68fbb04a3c2a69a30800000000000000
+      internalID: 4221740661860974470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_7
+      name: Objet_Bibliotheque_bureau_7
       rect:
         serializedVersion: 2
         x: 128
@@ -343,14 +337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfaa1e5d488ae7220800000000000000
-      internalID: 2485609332832578300
+      spriteID: 5f1810b333c787d80800000000000000
+      internalID: -8252709757681303051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_8
+      name: Objet_Bibliotheque_bureau_8
       rect:
         serializedVersion: 2
         x: 192
@@ -364,14 +358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea4aba70dd1fce070800000000000000
-      internalID: 8137144558370399406
+      spriteID: e5fdbf57a6bef9eb0800000000000000
+      internalID: -4710787842727747746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_9
+      name: Objet_Bibliotheque_bureau_9
       rect:
         serializedVersion: 2
         x: 256
@@ -385,14 +379,77 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc0af19f1655c61f0800000000000000
-      internalID: -1050370733804379955
+      spriteID: ad9147cdc1d30fb40800000000000000
+      internalID: 5471940741422127578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_10
+      name: Objet_Bibliotheque_bureau_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03ac904f2a87a1a0800000000000000
+      internalID: -6798313176940371188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f3d027800731400800000000000000
+      internalID: 293701582284734320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a07d25260a00d10800000000000000
+      internalID: 2089846571256973857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_13
       rect:
         serializedVersion: 2
         x: 192
@@ -406,14 +463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbd082d71e2ba5280800000000000000
-      internalID: -9053727419337798211
+      spriteID: bf26a63bde6607e60800000000000000
+      internalID: 7957973712667042555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_enfant_11
+      name: Objet_Bibliotheque_bureau_14
       rect:
         serializedVersion: 2
         x: 256
@@ -427,8 +484,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5be98658db29e5fc0800000000000000
-      internalID: -3504202117362966859
+      spriteID: 759e31925917495b0800000000000000
+      internalID: -5362536370838181545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5940cdc4dce158d60800000000000000
+      internalID: 7891747789143278741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c0e690dcef043e0800000000000000
+      internalID: -2071375672010470293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a348e7797b1880bf0800000000000000
+      internalID: -357893544855305158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb72c167769396610800000000000000
+      internalID: 1614885057915004862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7046ee2ae226f90800000000000000
+      internalID: -6961950796642252815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_Bibliotheque_bureau_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369cf59a999757280800000000000000
+      internalID: -9046190575625189021
       vertices: []
       indices: 
       edges: []
