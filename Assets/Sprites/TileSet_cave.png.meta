@@ -14,6 +14,21 @@ TextureImporter:
   - first:
       213: -8041150706948469540
     second: TileSet_cave_3
+  - first:
+      213: 6236344886849724070
+    second: TileSet_cave_0
+  - first:
+      213: 8807823833977717203
+    second: TileSet_cave_1
+  - first:
+      213: -8494894664983409660
+    second: TileSet_cave_2
+  - first:
+      213: 6671870610675985048
+    second: TileSet_cave_3
+  - first:
+      213: -2124114607349081828
+    second: TileSet_cave_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cec13fcb57b2dfeb0800000000000000
-      internalID: -4684540252714230548
+      spriteID: 6ae508d02a2fb8650800000000000000
+      internalID: 6236344886849724070
       vertices: []
       indices: 
       edges: []
@@ -172,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6eb49cf8db8482a0800000000000000
-      internalID: -6736105378572616081
+      spriteID: 3d106747c1dab3a70800000000000000
+      internalID: 8807823833977717203
       vertices: []
       indices: 
       edges: []
@@ -193,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f45761edac9fd3850800000000000000
-      internalID: 6358512898621732175
+      spriteID: 40c8d416f421c1a80800000000000000
+      internalID: -8494894664983409660
       vertices: []
       indices: 
       edges: []
@@ -214,8 +229,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdc84fe2908186090800000000000000
-      internalID: -8041150706948469540
+      spriteID: 89ae5b8a8fe379c50800000000000000
+      internalID: 6671870610675985048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_cave_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c195db6c401a582e0800000000000000
+      internalID: -2124114607349081828
       vertices: []
       indices: 
       edges: []
