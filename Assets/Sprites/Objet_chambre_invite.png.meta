@@ -23,6 +23,33 @@ TextureImporter:
   - first:
       213: 8374591106007692623
     second: Objet_chambre_invite_6
+  - first:
+      213: 3580657538418269446
+    second: Objet_chambre_invite_0
+  - first:
+      213: -6272777113642110955
+    second: Objet_chambre_invite_1
+  - first:
+      213: -3676573987929496411
+    second: Objet_chambre_invite_2
+  - first:
+      213: -4408621547254604091
+    second: Objet_chambre_invite_3
+  - first:
+      213: -3910216687261655375
+    second: Objet_chambre_invite_4
+  - first:
+      213: 1449469837186517262
+    second: Objet_chambre_invite_5
+  - first:
+      213: -5713571461600909521
+    second: Objet_chambre_invite_6
+  - first:
+      213: 4460620736141932881
+    second: Objet_chambre_invite_7
+  - first:
+      213: -4173061840577438157
+    second: Objet_chambre_invite_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -148,8 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b57bebe096d7170800000000000000
-      internalID: 8177808010424834928
+      spriteID: 60ddebf5f0d01b130800000000000000
+      internalID: 3580657538418269446
       vertices: []
       indices: 
       edges: []
@@ -169,8 +196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b63da87f5b9f8920800000000000000
-      internalID: 2994783111573485236
+      spriteID: 5107922237e92f8a0800000000000000
+      internalID: -6272777113642110955
       vertices: []
       indices: 
       edges: []
@@ -190,8 +217,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01df4867c7ce746e0800000000000000
-      internalID: -1853252702331142896
+      spriteID: 5a46503ff6f2afcc0800000000000000
+      internalID: -3676573987929496411
       vertices: []
       indices: 
       edges: []
@@ -200,7 +227,7 @@ TextureImporter:
       name: Objet_chambre_invite_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 192
         width: 64
         height: 64
@@ -211,8 +238,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 453df3ff2d61e86e0800000000000000
-      internalID: -1833502902811897004
+      spriteID: 5ce91c68f0e61d2c0800000000000000
+      internalID: -4408621547254604091
       vertices: []
       indices: 
       edges: []
@@ -221,6 +248,27 @@ TextureImporter:
       name: Objet_chambre_invite_4
       rect:
         serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bed6f0e3ae1cb9c0800000000000000
+      internalID: -3910216687261655375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_chambre_invite_5
+      rect:
+        serializedVersion: 2
         x: 256
         y: 192
         width: 64
@@ -232,14 +280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21aa14cc77539f520800000000000000
-      internalID: 2736277037248522770
+      spriteID: e094526232d8d1410800000000000000
+      internalID: 1449469837186517262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_invite_5
+      name: Objet_chambre_invite_6
       rect:
         serializedVersion: 2
         x: 192
@@ -253,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 835604e362bcee350800000000000000
-      internalID: 6047994714718758200
+      spriteID: f27e778070155b0b0800000000000000
+      internalID: -5713571461600909521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objet_chambre_invite_6
+      name: Objet_chambre_invite_7
       rect:
         serializedVersion: 2
         x: 256
@@ -274,8 +322,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f45fbbc8d36883470800000000000000
-      internalID: 8374591106007692623
+      spriteID: 1593b771dee47ed30800000000000000
+      internalID: 4460620736141932881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objet_chambre_invite_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ed4a6ad5e4616c0800000000000000
+      internalID: -4173061840577438157
       vertices: []
       indices: 
       edges: []
