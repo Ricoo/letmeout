@@ -38,6 +38,48 @@ TextureImporter:
   - first:
       213: 4321672204833421044
     second: TileSet_couloir_ou_bonne_version_vieux_craquer_11
+  - first:
+      213: 2939443397383333030
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_0
+  - first:
+      213: -36566238462950723
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_1
+  - first:
+      213: -1655951846384654365
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_2
+  - first:
+      213: -3349196299524431147
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_3
+  - first:
+      213: -5903198257578024055
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_4
+  - first:
+      213: -3808387516843858735
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_5
+  - first:
+      213: -8871676910119339529
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_6
+  - first:
+      213: 5768775024975458014
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_7
+  - first:
+      213: -6369384182701031825
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_8
+  - first:
+      213: 6101890968738009857
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_9
+  - first:
+      213: 2443813648328000217
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_10
+  - first:
+      213: 5384631972128439817
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_11
+  - first:
+      213: 8581270036168066617
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_12
+  - first:
+      213: 6546362800816159501
+    second: TileSet_couloir_ou_bonne_version_vieux_craquer_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -163,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7ac376a0483e60e0800000000000000
-      internalID: -2274818911453853059
+      spriteID: 6a4a66232300bc820800000000000000
+      internalID: 2939443397383333030
       vertices: []
       indices: 
       edges: []
@@ -184,8 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 678ebea7f8b105c10800000000000000
-      internalID: 2040160934255388790
+      spriteID: db2c4a923371e7ff0800000000000000
+      internalID: -36566238462950723
       vertices: []
       indices: 
       edges: []
@@ -205,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 815e9aa0ae6ac0220800000000000000
-      internalID: 2453519421141542168
+      spriteID: 3e7271fb190e409e0800000000000000
+      internalID: -1655951846384654365
       vertices: []
       indices: 
       edges: []
@@ -226,8 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b2d9971766202d70800000000000000
-      internalID: 9016248678215176887
+      spriteID: 5d22bcbd5b34581d0800000000000000
+      internalID: -3349196299524431147
       vertices: []
       indices: 
       edges: []
@@ -247,8 +289,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 481f11e85fb075570800000000000000
-      internalID: 8455239974689829252
+      spriteID: 9836b521670a31ea0800000000000000
+      internalID: -5903198257578024055
       vertices: []
       indices: 
       edges: []
@@ -268,8 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 725ae5d24bbe10dd0800000000000000
-      internalID: -2521475157262949081
+      spriteID: 1d46d7b2bb3e52bc0800000000000000
+      internalID: -3808387516843858735
       vertices: []
       indices: 
       edges: []
@@ -289,8 +331,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d0e54b4abdef380800000000000000
-      internalID: -8935463110209303170
+      spriteID: 7f93d4abad871e480800000000000000
+      internalID: -8871676910119339529
       vertices: []
       indices: 
       edges: []
@@ -310,8 +352,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163e90c59511a42e0800000000000000
-      internalID: -2140879597367336095
+      spriteID: edeaec8225ece0050800000000000000
+      internalID: 5768775024975458014
       vertices: []
       indices: 
       edges: []
@@ -331,8 +373,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a6a28cbb9c9fafb0800000000000000
-      internalID: -4634313298844408156
+      spriteID: f6efc1015d66b97a0800000000000000
+      internalID: -6369384182701031825
       vertices: []
       indices: 
       edges: []
@@ -352,8 +394,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f737fabe9c3bf8b0800000000000000
-      internalID: -5117429899137173517
+      spriteID: 1031bc1c1854ea450800000000000000
+      internalID: 6101890968738009857
       vertices: []
       indices: 
       edges: []
@@ -373,8 +415,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 602c1f4d6b93185c0800000000000000
-      internalID: -4215024318822628858
+      spriteID: 9d287d5b09b2ae120800000000000000
+      internalID: 2443813648328000217
       vertices: []
       indices: 
       edges: []
@@ -394,8 +436,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f676cc19f9a9fb30800000000000000
-      internalID: 4321672204833421044
+      spriteID: 90e3de8ef3e0aba40800000000000000
+      internalID: 5384631972128439817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9364083e1abc61770800000000000000
+      internalID: 8581270036168066617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileSet_couloir_ou_bonne_version_vieux_craquer_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b7a71884a59da50800000000000000
+      internalID: 6546362800816159501
       vertices: []
       indices: 
       edges: []
